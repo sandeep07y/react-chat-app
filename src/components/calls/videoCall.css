@@ -1,0 +1,62 @@
+.videoContainer {
+    width: 75vw;
+    height: 75vh;
+    padding: 30px;
+    background-color: rgba(17, 25, 40, 0.853);
+    border-radius: 10px;
+    
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+
+    .videos {
+        margin: 10px;
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+
+        video {
+            width: 30vw;
+            height: 50vh;
+            border: 1px #fff solid;
+            border-radius: 20px;
+        }
+    }
+
+    .controls {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+
+        button {
+            padding: 15px;
+            background-color: rgba(230, 74, 105, 0.553);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+      
+            &:hover {
+              background-color: rgba(220, 20, 60, 0.796);
+            }
+    
+            &.join {
+                padding: 15px;
+                background-color: rgb(127, 157, 255);
+            }
+            &.mute {
+                padding: 15px;
+                background-color: rgb(136, 127, 255);
+            }
+          }
+    }
+}
