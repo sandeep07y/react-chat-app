@@ -82,4 +82,6 @@ To set up and run this project locally, follow these steps:
    ```
 
    The application will be accessible at `http://localhost:3000`.
+## Contributions
 
+Contributions are welcome! Please fork this repository and submit a pull request for any features, bug fixes, or enhancements.
